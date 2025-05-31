@@ -31,7 +31,7 @@ namespace ProyectoPae2
             string grado = texGrado.Text.Trim();
             try
             {
-                ConexionPrimari con = new ConexionPrimari("8cc7a0887cbbad9442f11c749ce875398f1605e4e33eb34b83480475781d1c67");
+                ConexionPrimari con = new ConexionPrimari("Apikey");
                 txtRespuesta.Visible = true;
                 
                 string prompt = $"Responde dependiendo el grado que te ingrese es de nivel primario  : { grado}: { pregunta}";
