@@ -10,7 +10,7 @@ namespace ProyectoPae2
 
     internal class ConexionNsuperior
     {
-        private string apiKey = "8cc7a0887cbbad9442f11c749ce875398f1605e4e33eb34b83480475781d1c67";
+        private string apiKey = "ApiKey";
 
         public ConexionNsuperior(string apikey)
         {
