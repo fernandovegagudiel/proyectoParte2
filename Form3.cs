@@ -44,7 +44,7 @@ namespace ProyectoPae2
             string grado = texGrado.Text.Trim();
             try
             {
-                ConexionNsuperior Conex = new ConexionNsuperior("8cc7a0887cbbad9442f11c749ce875398f1605e4e33eb34b83480475781d1c67");
+                ConexionNsuperior Conex = new ConexionNsuperior("Apikey");
                 string prompt = $"Responde de forma adecuada al  nivel academico:  {grado}: {pregunta}";
                 string respuesta = await Conex.ObtenerRespuestaAsync(prompt);
                 MostrarEnPantalla(respuesta);
